@@ -1,0 +1,27 @@
+<div style="margin-bottom: 1rem; display: flex; gap: 1rem;">
+  <button (click)="startCamera()">Usar Cámara</button>
+  <button (click)="triggerFileInput()">Subir Archivo</button>
+</div>
+
+<input type="file" id="fileInput" (change)="onFileSelected($event)" accept="image/*" hidden />
+
+<div [style.display]="scanning ? 'block' : 'none'">
+  <video #video autoplay playsinline></video>
+  <canvas #canvas hidden></canvas>
+</div>
+
+@if (error) {
+  <div style="color:red; margin-top: 1rem;">
+    {{ error }}
+    </div>
+  }
+
+@if (data) {
+  <div>
+    <pre>{{ data | json }}</pre>
+  </div>
+}
+
+@if (imageUrl) {
+  <img [src]="imageUrl" />
+}

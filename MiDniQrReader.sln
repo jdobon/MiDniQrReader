@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.1.11312.151 d18.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "MiDniQrReader", "MiDniQrReader.esproj", "{DFC983BC-82AD-C524-446B-67378FDF8107}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFC983BC-82AD-C524-446B-67378FDF8107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC983BC-82AD-C524-446B-67378FDF8107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC983BC-82AD-C524-446B-67378FDF8107}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DFC983BC-82AD-C524-446B-67378FDF8107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC983BC-82AD-C524-446B-67378FDF8107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFC983BC-82AD-C524-446B-67378FDF8107}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30F37BA5-E14F-4F27-8062-F03822290B1C}
+	EndGlobalSection
+EndGlobal
