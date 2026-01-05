@@ -1,7 +1,7 @@
 # 📌 **Resumen de los puntos principales del proyecto MiDniQrReader**
 
 ## 🧭 **Propósito del proyecto**
-- Aplicación web en **Angular** para **leer, analizar y validar** los códigos QR del **DNI español**.
+- Aplicación web en **Angular** para **leer, analizar y validar** los códigos QR del **DNI español** en la app oficial **MiDNI**.
 - Verifica la **autenticidad** y **integridad** de los datos mediante certificados oficiales del Ministerio del Interior.
 - Permite **escaneo en tiempo real** con cámara o subida de archivos.
 
@@ -58,8 +58,6 @@
 ## 🚀 **Build y desarrollo**
 - `npm start` → servidor de desarrollo.
 - `npm run build` → build de producción.
-- `npm test` → tests.
-- Límites de tamaño, hashing de salida y dependencias CommonJS permitidas.
 
 ---
 
